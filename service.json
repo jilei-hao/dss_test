@@ -1,0 +1,24 @@
+{
+    "name": "Test Time Frame",
+    "version": "0.1.0",
+    "keywords": [
+      "4D",
+      "TimeFrame"
+    ],
+    "shortdesc": "Test Time Frame Tag Uploading",
+    "longdesc": "Given a 4D Image, upload a time frame number within the range of the number of timeframes the 4D Image have",
+    "tags": [
+      {
+        "name": "4D Image",
+        "type": "MainImage",
+        "hint": "The anatomical image onto which you want to warp the segmentation",
+        "required": true
+      },
+      {
+        "name": "TimeFrame",
+        "type": "TimeFrame",
+        "hint": "The segmentation of the source image",
+        "required": true
+      }
+    ]
+  }
