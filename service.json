@@ -1,12 +1,12 @@
 {
-    "name": "Test Time Frame",
+    "name": "TimePoint Tag Test",
     "version": "0.1.0",
     "keywords": [
       "4D",
-      "TimeFrame"
+      "TimePoint"
     ],
-    "shortdesc": "Test Time Frame Tag Uploading",
-    "longdesc": "Given a 4D Image, upload a time frame number within the range of the number of timeframes the 4D Image have",
+    "shortdesc": "Test Time Point Tag Uploading",
+    "longdesc": "Given a 4D Image, upload a timepoint number within the range of the number of timepoints the 4D Image have",
     "tags": [
       {
         "name": "4D Image",
@@ -15,9 +15,9 @@
         "required": true
       },
       {
-        "name": "TimeFrame",
-        "type": "TimeFrame",
-        "hint": "The segmentation of the source image",
+        "name": "TP_2",
+        "type": "TimePoint",
+        "hint": "Mark the second timepoint",
         "required": true
       }
     ]
