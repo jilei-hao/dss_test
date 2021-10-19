@@ -1,6 +1,6 @@
 {
     "name": "TimePoint Tag Test",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "keywords": [
       "4D",
       "TimePoint"
@@ -15,9 +15,15 @@
         "required": true
       },
       {
-        "name": "TP_2",
+        "name": "TP_Tag1",
         "type": "TimePoint",
-        "hint": "Mark the second timepoint",
+        "hint": "The first tag",
+        "required": true
+      },
+      {
+        "name": "TP_Tag2",
+        "type": "TimePoint",
+        "hint": "The second tag",
         "required": true
       }
     ]
